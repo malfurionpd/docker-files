@@ -1,0 +1,13 @@
+[repositories]
+  local
+	nexus-public: http://118.89.30.245:8081/repository/maven-public/ 
+	nexus-releases: http://118.89.30.245:8081/repository/maven-releases/ 
+	nexus-snapshot: http://118.89.30.245:8081/repository/maven-snapshots/ 
+	public: http://maven.aliyun.com/nexus/content/groups/public/
+	typesafe:http://dl.bintray.com/typesafe/ivy-releases/ , [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext], bootOnly
+	ivy-sbt-plugin:http://dl.bintray.com/sbt/sbt-plugin-releases/, [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+	repox-maven: http://repox.gtan.com:8078/ 
+	repox-ivy: http://repox.gtan.com:8078/ , [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+	sbt-releases-repo: http://repo.typesafe.com/typesafe/ivy-releases/ , [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+	sbt-plugins-repo: http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/ , [organization]/[module]/(scala_[scalaVersion]/)(sbt_[sbtVersion]/)[revision]/[type]s/[artifact](-[classifier]).[ext]
+	maven-central: http://repo1.maven.org/maven2/
